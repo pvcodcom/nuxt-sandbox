@@ -49,5 +49,15 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  /*
+  ** Routes for SSR
+  */
+  generate: {
+    routes: [
+      '/posts/balut',
+      '/posts/whereIsIt',
+      '/posts/how'
+    ]
   }
 }
